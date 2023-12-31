@@ -1,0 +1,125 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul{
+margin:0;
+padding:0;
+}
+body
+{
+font-family:Arial,sans-serif;
+line-height:1.6;
+background-color:#fff;
+color:#333;
+margin:20px;
+}
+header{
+text-align:center;
+margin-bottom:20px;
+background-color:lightblue;
+padding:20px;
+border-radius:5px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+header h1,
+header p{
+margin-bottom:10px;
+}
+header img{
+border-radius:50%;
+width:250px;
+height:250px;
+object-fit:cover;
+background-color:#fff;
+padding:10px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+main{
+background-color:#fff;
+padding:20px;
+border-radius:5px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+section{
+margin-bottom:30px;
+padding:20px;
+border-radius:5px;
+}
+h2{
+margin-bottom:10px;
+}
+.project,
+.education,
+.contact,
+.award{
+margin-bottom:15px;
+}
+nav{
+text-align:center;
+background-color:#f4f4f4;
+padding:10px 0;
+}
+nav ul{
+list-style:none;
+padding:0;
+}
+nav ul li{
+display:inline-block;
+margin-right:15px;
+}
+nav ul li a{
+text-decoration:none;
+color:#007bff;
+padding:5px 10px;
+border-radius:5px;
+background-color:#fff;
+}
+nav ul li a:hover{
+background-color:#007bff;
+color:#fff;
+}
+ul{
+list-style:none;
+}
+#about{
+font-style:italic;
+background-color:#ffccbc;
+}
+#projects{
+background-color:#c5cae9;
+}
+#projects.project h3{
+color:#311b92;
+}
+#skills{
+background-color:darkseagreen;
+}
+#skills ul li{
+margin-right:10px;
+color:#fff;
+padding:5px 10px;
+border-radius:5px;
+}
+#education{
+background-color:mediumaquamarine;
+}
+#contact
+{
+    background-color:burlywood;
+}
+#education.education h3,
+#activities.activities h3,
+#awards.award h3{
+font-size:18px;
+}
+#intern{
+background-color:khaki;
+}
+@media(max-width:768px){
+header img{
+width:120px;
+height:120px;
+}
+}
